@@ -15,7 +15,6 @@ function Box() {
                   <img src="/src/assets/images/icon/icon-list.svg" 
                     alt="icon-list" 
                     className="icon"
-                    loading="lazy" 
                   />
                   <p>Product discovery and buildign what matters</p>
                 </section>
@@ -23,7 +22,6 @@ function Box() {
                   <img src="/src/assets/images/icon/icon-list.svg" 
                     alt="icon-list" 
                     className="icon"
-                    loading="lazy" 
                   />
                   <p>Measuring to ensure updates are a success</p>
                 </section>
@@ -32,7 +30,6 @@ function Box() {
                     src="/src/assets/images/icon/icon-list.svg" 
                     alt="icon-list" 
                     className="icon"
-                    loading="lazy" 
                   />
                   <p>And much more!</p>
                 </section>
@@ -40,9 +37,8 @@ function Box() {
               <GmFu />
           </div>
           <picture className="box-img">
-            <source media="(max-width: 789px)" srcSet="/src/assets/images/illustration-sign-up-mobile.svg" />
+            <source media="(max-width: 789px)" srcSet="/src/assets/images/illustration-sigup-mobile.svg" />
             <img
-              loading="lazy" 
               role="presentation"
               src="/src/assets/images/illustration-sign-up-desktop.svg" 
               alt="illustration-sign-up-desktop"
